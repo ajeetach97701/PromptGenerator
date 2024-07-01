@@ -9,8 +9,8 @@ load_dotenv()
 
 
 def generate_prompt(task, api):
-    api = os.getenv("OPENAI_API_KEY")
-    llm = ChatOpenAI(api_key=api)
+    Openai_api_key = api
+    llm = ChatOpenAI(api_key=Openai_api_key)
     template = """
     You are an expert prompt engineer and an expert at building LLM application. Your task is explained below: 
     1. You should write a zero shot prompt that will act as an input prompt to the chatbot who will be a virtual representative.
@@ -29,7 +29,7 @@ if __name__ == "__main__":
     st.write("This application generates a prompt for a chatbot to perform a specific task.")
 
     # New input field
-    Openai_api_key = st.text_input("Enter your name:", "")
+    Openai_api_key = st.text_input("Enter your API KEY FOR OPENAI:", "")
 
     # Input field for the specific task
     task = st.text_area("Enter the specific task for the chatbot:", "")
