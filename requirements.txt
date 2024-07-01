@@ -1,0 +1,12 @@
+
+langchain
+langchain_openai 
+langchain_community
+ipykernel
+pandas
+ipywidgets
+chromadb
+langchain-core
+streamlit
+pandas
+fastapi

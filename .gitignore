@@ -1,0 +1,4 @@
+.env
+ImgEnv/
+__pycache__/
+test.ipynb
