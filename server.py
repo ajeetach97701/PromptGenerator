@@ -96,10 +96,10 @@ if __name__ == "__main__":
         """
         <div class="footer">
             <p>Developed by 
-                <a href="https://www.linkedin.com/in/ajeet-acharya" target="_blank">Ajeet Acharya</a> | 
+                <a href="https://www.linkedin.com/in/ajeet-acharya97701/" target="_blank">Ajeet Acharya</a> | 
                 <a href="https://github.com/ajeetach97701/" target="_blank">GitHub</a> 
                 and 
-                <a href="https://www.linkedin.com/in/aagab-pant" target="_blank">Aagab Pant</a> | 
+                <a href="https://www.linkedin.com/in/aagab-pant-012856157/" target="_blank">Aagab Pant</a> | 
                 <a href="https://github.com/aagabpant" target="_blank">GitHub</a>
             </p>
         </div>
