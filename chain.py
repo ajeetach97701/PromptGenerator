@@ -12,7 +12,7 @@ def generate_prompt(input):
     1. You should write a zero shot prompt that will act as a input prompt to the chatbot who will be a virtual representative.
     2. The prompt you provide should be about performing a specific task which is:`{input}`
     3. Do not provide a conversation prompt. The prompt you will generate is not user input prompt but it is a instruction that will be given to the chatbot. 
-    Generate the prompt with words less than 300 words.
+    Generate the prompt with words less than 400 words. Do not include words like create a prompt, prompt Zero Shot prompt and so on.
 
     """
     prompt = ChatPromptTemplate.from_template(template=template)
